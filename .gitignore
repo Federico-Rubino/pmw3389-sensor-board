@@ -3,6 +3,7 @@ Gerber
 *.lck
 *#auto_*
 fp-info-cache
+fp-lib-table
 sym-lib-table-bak
 Optical_sensor-backups/
 # File temporanei e backup
