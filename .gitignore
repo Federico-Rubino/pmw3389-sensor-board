@@ -1,0 +1,6 @@
+fp-info-cache
+Exports
+Gerber
+*.lck
+*#auto_*
+Optical_sensor-backups/
