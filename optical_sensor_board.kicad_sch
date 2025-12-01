@@ -3548,7 +3548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyOptical:LargerPad_P160"
 			(at 68.58 148.59 0)
 			(effects
 				(font
