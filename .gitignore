@@ -1,6 +1,31 @@
-fp-info-cache
 Exports
 Gerber
 *.lck
 *#auto_*
 Optical_sensor-backups/
+# File temporanei e backup
+*.bak
+*~
+*.tmp
+*.kicad_prl
+*#auto_saved_files#
+# Output di esportazione
+*.net
+*.xml
+*.cmp
+*.drc
+*.rpt
+*.gbr
+*.ger
+*.drl
+*.pos
+*.csv
+*.zip
+*.lck
+
+# Cartelle generate
+fp-info-cache/
+sym-lib-table-bak/
+backup/
+autosave/
+manufacturing/
