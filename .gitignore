@@ -2,6 +2,8 @@ Exports
 Gerber
 *.lck
 *#auto_*
+fp-info-cache
+sym-lib-table-bak
 Optical_sensor-backups/
 # File temporanei e backup
 *.bak
