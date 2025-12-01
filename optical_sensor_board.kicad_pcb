@@ -11567,6 +11567,19 @@
 		(layer "Edge.Cuts")
 		(uuid "60598852-6ca6-4d8c-8c08-7d9c8c42a90f")
 	)
+	(gr_text "pmw3389-board\nRV1\n"
+		(at 173.5 96 45)
+		(layer "B.Cu")
+		(uuid "bd6a6f5d-5c70-425e-868f-f402569a6d2d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(segment
 		(start 149.36 63)
 		(end 150.368 64.008)
