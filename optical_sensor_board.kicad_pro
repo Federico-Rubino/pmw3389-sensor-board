@@ -51,8 +51,79 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|137150000|81200000|05820b62-d68a-47ee-be68-a60581ee463c|a35b532b-f6c3-42e1-a6d1-2bf5821065b6",
+          ""
+        ],
+        [
+          "copper_edge_clearance|138040000|70500000|7847b156-0582-4b35-9852-e284ec5b5e84|4dadf3c8-2dd1-47bc-8ae7-8ee7dd3c87ad",
+          ""
+        ],
+        [
+          "copper_edge_clearance|138930000|81200000|05820b62-d68a-47ee-be68-a60581ee463c|b05d598e-1cd9-4d0d-84f3-9705a5543a53",
+          ""
+        ],
+        [
+          "copper_edge_clearance|139820000|70500000|7847b156-0582-4b35-9852-e284ec5b5e84|cf22be8a-2e46-4c2d-9612-2386757ca4ea",
+          ""
+        ],
+        [
+          "copper_edge_clearance|140710000|81200000|05820b62-d68a-47ee-be68-a60581ee463c|b581bc9b-1d9f-44ec-afa2-9b5ab30a3f94",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141600000|70500000|7847b156-0582-4b35-9852-e284ec5b5e84|5458cb0d-f5ca-4c25-9487-499121b4fb48",
+          ""
+        ],
+        [
+          "copper_edge_clearance|142490000|81200000|05820b62-d68a-47ee-be68-a60581ee463c|2b7ce897-754d-430f-956d-076a7233ffce",
+          ""
+        ],
+        [
+          "copper_edge_clearance|143380000|70500000|7847b156-0582-4b35-9852-e284ec5b5e84|f5e65d0e-1b01-47f3-a4d4-b94c9a70d706",
+          ""
+        ],
+        [
+          "copper_edge_clearance|144270000|81200000|05820b62-d68a-47ee-be68-a60581ee463c|c0547388-cf28-4f0b-9cfd-1ddeb146d1de",
+          ""
+        ],
+        [
+          "copper_edge_clearance|145160000|70500000|7847b156-0582-4b35-9852-e284ec5b5e84|20c85a56-d13b-43c6-9a07-767df56c6c80",
+          ""
+        ],
+        [
+          "copper_edge_clearance|146050000|81200000|05820b62-d68a-47ee-be68-a60581ee463c|89080d99-daec-4ad4-977f-b19216443988",
+          ""
+        ],
+        [
+          "copper_edge_clearance|146940000|70500000|7847b156-0582-4b35-9852-e284ec5b5e84|963a4116-6475-45d2-b80c-fe35da0ca4a1",
+          ""
+        ],
+        [
+          "copper_edge_clearance|147830000|81200000|05820b62-d68a-47ee-be68-a60581ee463c|8da74228-52da-4bdc-80d4-59c13e595fdb",
+          ""
+        ],
+        [
+          "copper_edge_clearance|148720000|70500000|7847b156-0582-4b35-9852-e284ec5b5e84|b0cd47b9-8cef-45fb-863d-1c7c3915d411",
+          ""
+        ],
+        [
+          "copper_edge_clearance|149610000|81200000|05820b62-d68a-47ee-be68-a60581ee463c|1e7216d3-2b25-4462-967a-7459baacea5c",
+          ""
+        ],
+        [
+          "copper_edge_clearance|149800000|71200000|7847b156-0582-4b35-9852-e284ec5b5e84|aed8f820-db5f-4c87-baea-e2ea46d84f71",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -117,7 +188,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.4,
+        "min_clearance": 0.38,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -125,13 +196,13 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.4,
         "min_track_width": 0.4,
-        "min_via_annular_width": 0.35,
+        "min_via_annular_width": 0.34,
         "min_via_diameter": 1.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -180,7 +251,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +280,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -458,7 +536,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.38,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -475,7 +553,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.38,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
