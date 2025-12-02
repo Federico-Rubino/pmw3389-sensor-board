@@ -3769,7 +3769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 203.2 144.78 0)
 			(effects
 				(font
@@ -3836,7 +3836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 101.6 101.6 0)
 			(effects
 				(font
@@ -3903,7 +3903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 266.7 129.54 0)
 			(effects
 				(font
@@ -4545,7 +4545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 101.6 78.74 0)
 			(effects
 				(font
@@ -4678,7 +4678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 190.5 129.54 0)
 			(effects
 				(font
@@ -5159,7 +5159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 254 129.54 0)
 			(effects
 				(font
@@ -5358,7 +5358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 194.31 41.91 0)
 			(effects
 				(font
@@ -5425,7 +5425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 215.9 129.54 0)
 			(effects
 				(font
@@ -5583,7 +5583,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 69.85 153.67 0)
 			(effects
 				(font
@@ -5921,7 +5921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 190.5 144.78 0)
 			(effects
 				(font
@@ -6058,7 +6058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 241.3 129.54 0)
 			(effects
 				(font
@@ -6262,7 +6262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 124.46 57.15 0)
 			(effects
 				(font
@@ -6737,7 +6737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 228.6 129.54 0)
 			(effects
 				(font
@@ -6874,7 +6874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 143.51 57.15 0)
 			(effects
 				(font
@@ -7073,7 +7073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 203.2 129.54 0)
 			(effects
 				(font
@@ -7276,7 +7276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 97.79 132.08 0)
 			(effects
 				(font
