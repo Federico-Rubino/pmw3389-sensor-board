@@ -600,7 +600,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "SVG",
+      "plot": "pdf",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

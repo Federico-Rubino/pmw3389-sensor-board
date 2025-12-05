@@ -2354,6 +2354,12 @@
 		(uuid "d4ebc3e1-7c95-4512-a805-f5cbc800faad")
 	)
 	(junction
+		(at 142.24 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8effb04-b857-46b8-852d-fb4665e8e5c4")
+	)
+	(junction
 		(at 189.23 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2725,6 +2731,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 76.2) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558ddf47-ba75-4218-a4b5-8d37ac42684c")
+	)
+	(wire
+		(pts
 			(xy 50.8 95.25) (xy 50.8 93.98)
 		)
 		(stroke
@@ -2745,7 +2761,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 64.77) (xy 142.24 68.58)
+			(xy 142.24 64.77) (xy 142.24 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2975,13 +2991,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 78.74) (xy 138.43 78.74)
+			(xy 142.24 76.2) (xy 142.24 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95e3c3fa-84a7-40b7-a640-2e2cc9a3d491")
+		(uuid "9974a0a1-8a32-4dff-a651-39e7129c07ea")
 	)
 	(wire
 		(pts
@@ -3135,7 +3151,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 142.24 78.74)
+			(xy 138.43 76.2) (xy 138.43 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3392,6 +3408,16 @@
 			(type default)
 		)
 		(uuid "fb10d65b-5012-4940-9dd4-f3098fad4d3b")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1ffa36-5556-4131-b593-e9c216f280f7")
 	)
 	(label "+1V9"
 		(at 266.7 34.29 180)
@@ -4779,10 +4805,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "478f48ec-f79f-419c-ac2c-a1358565bdbb")
 		(property "Reference" "TP14"
-			(at 132.08 56.3879 0)
+			(at 125.984 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +4816,7 @@
 			)
 		)
 		(property "Value" "T_VDDIO"
-			(at 132.08 58.9279 0)
+			(at 125.984 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,10 +5004,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d7d97a7-29e5-407f-bc5e-c9abddb003f4")
 		(property "Reference" "C2"
-			(at 133.35 64.7699 0)
+			(at 123.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +5015,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 133.35 67.3099 0)
+			(at 123.19 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6836,7 +6860,7 @@
 		(dnp no)
 		(uuid "c7acb8b1-6b5c-40f7-8b71-8869b59828dc")
 		(property "Reference" "C1"
-			(at 118.872 64.77 0)
+			(at 109.728 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6845,7 +6869,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 118.872 67.31 0)
+			(at 109.728 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,6 +7047,73 @@
 			(project ""
 				(path "/bc898632-37cb-47d1-8655-c4a22efc7ca2"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 144.78 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d467140f-f669-49cf-b47b-1baafc21877d")
+		(property "Reference" "#FLG0103"
+			(at 146.685 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 148.59 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5f3ab8f-ed43-4b0f-895e-2d04f3aae756")
+		)
+		(instances
+			(project "optical_sensor_board"
+				(path "/bc898632-37cb-47d1-8655-c4a22efc7ca2"
+					(reference "#FLG0103")
 					(unit 1)
 				)
 			)
@@ -7435,7 +7526,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 142.24 72.39 270)
+		(at 142.24 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7444,7 +7535,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed481d70-c2fe-4fbd-b3b7-f8ab3505bea0")
 		(property "Reference" "JP101"
-			(at 144.78 71.1199 90)
+			(at 144.78 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7453,7 +7544,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 144.78 73.6599 90)
+			(at 144.78 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,7 +7553,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 142.24 72.39 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 72.39 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7571,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 142.24 72.39 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
